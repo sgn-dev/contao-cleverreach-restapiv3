@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# Generate Folders
+/vendor/
+/.php_cs.cache

@@ -1,0 +1,34 @@
+{
+  "name":"47gn/contao-cleverreach-restapiv3",
+  "description":"Contao Bundle to connect with Cleverreachs rest API v3",
+  "type":"contao-bundle",
+  "license":"proprietary",
+  "authors":[
+    {
+      "name":"47 GradNord - Agentur für Internetlösungen",
+      "homepage":"http://www.47gradnord.de"
+    }
+  ],
+  "require":{
+    "php": "^7.1.0"
+  },
+  "require-dev":{
+    "contao/core-bundle": "^4.7",
+    "php-http/guzzle6-adapter": "dev-master",
+    "contao/manager-plugin": "2.6.*",
+    "friendsofphp/php-cs-fixer": "^2.14"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/core-bundle": "4.4.1",
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "autoload":{
+    "psr-4": {
+      "Sgn47gradnord\\Cleverreachapi\\": "src/"
+    }
+  },
+  "extra":{
+    "contao-manager-plugin": "Sgn47gradnord\\Cleverreachapi\\ContaoManager\\Plugin"
+  }
+}
